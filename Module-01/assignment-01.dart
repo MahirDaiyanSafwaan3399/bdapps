@@ -1,8 +1,6 @@
 import 'dart:io';
 
 void main() {
-  print('--- Personal Finance Tracker ---');
-
 
   stdout.write('Enter your total monthly income: ');
   double income = double.tryParse(stdin.readLineSync() ?? '') ?? 0.0;
@@ -15,7 +13,6 @@ void main() {
   };
 
   print('\nPlease enter the amounts for the following categories:');
-  print('(Leave blank if there is no expense for a category)');
 
   for (var category in expenses.keys) {
     stdout.write('$category: ');
