@@ -1,7 +1,3 @@
-Here is a comprehensive, professional `README.md` file tailored specifically for your **Module-06** assignment. It highlights the architecture, asynchronous design patterns, and Cloud Firestore integration logic in a way that looks exceptionally clean and technically polished for your instructor's review.
-
-Replace the contents of your `Module-06/README.md` file with this text:
-
 ```markdown
 # Cloud Document Notebook — Firestore Integration (Module-06)
 
